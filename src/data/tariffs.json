@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "moeda": "BRL",
+  "unidade": "R$/ton",
+  "atualizadoEm": "2026-05-01",
+  "combinacoes": [
+    { "estadoOrigem": "GO", "estadoDestino": "GO", "faixaKm": "0-200",      "tipoCarga": "seca",         "tipoVeiculo": "toco",    "valorBaseTon": 80 },
+    { "estadoOrigem": "GO", "estadoDestino": "GO", "faixaKm": "0-200",      "tipoCarga": "seca",         "tipoVeiculo": "truck",   "valorBaseTon": 90 },
+    { "estadoOrigem": "GO", "estadoDestino": "GO", "faixaKm": "0-200",      "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 100 },
+    { "estadoOrigem": "GO", "estadoDestino": "GO", "faixaKm": "200-500",    "tipoCarga": "seca",         "tipoVeiculo": "toco",    "valorBaseTon": 125 },
+    { "estadoOrigem": "GO", "estadoDestino": "GO", "faixaKm": "200-500",    "tipoCarga": "seca",         "tipoVeiculo": "truck",   "valorBaseTon": 145 },
+    { "estadoOrigem": "GO", "estadoDestino": "GO", "faixaKm": "200-500",    "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 130 },
+    { "estadoOrigem": "GO", "estadoDestino": "GO", "faixaKm": "200-500",    "tipoCarga": "refrigerada",  "tipoVeiculo": "carreta", "valorBaseTon": 170 },
+
+    { "estadoOrigem": "GO", "estadoDestino": "DF", "faixaKm": "200-500",    "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 130 },
+    { "estadoOrigem": "GO", "estadoDestino": "DF", "faixaKm": "200-500",    "tipoCarga": "seca",         "tipoVeiculo": "toco",    "valorBaseTon": 145 },
+    { "estadoOrigem": "GO", "estadoDestino": "DF", "faixaKm": "200-500",    "tipoCarga": "refrigerada",  "tipoVeiculo": "carreta", "valorBaseTon": 170 },
+    { "estadoOrigem": "DF", "estadoDestino": "GO", "faixaKm": "200-500",    "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 130 },
+
+    { "estadoOrigem": "GO", "estadoDestino": "SP", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 180 },
+    { "estadoOrigem": "GO", "estadoDestino": "SP", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "bitrem",  "valorBaseTon": 155 },
+    { "estadoOrigem": "GO", "estadoDestino": "SP", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "truck",   "valorBaseTon": 200 },
+    { "estadoOrigem": "GO", "estadoDestino": "SP", "faixaKm": "500-1000",   "tipoCarga": "refrigerada",  "tipoVeiculo": "carreta", "valorBaseTon": 235 },
+    { "estadoOrigem": "GO", "estadoDestino": "SP", "faixaKm": "500-1000",   "tipoCarga": "fracionada",   "tipoVeiculo": "carreta", "valorBaseTon": 250 },
+    { "estadoOrigem": "GO", "estadoDestino": "SP", "faixaKm": "500-1000",   "tipoCarga": "perigosa",     "tipoVeiculo": "carreta", "valorBaseTon": 290 },
+    { "estadoOrigem": "SP", "estadoDestino": "GO", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 175 },
+    { "estadoOrigem": "SP", "estadoDestino": "GO", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "bitrem",  "valorBaseTon": 150 },
+
+    { "estadoOrigem": "GO", "estadoDestino": "MG", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 175 },
+    { "estadoOrigem": "GO", "estadoDestino": "MG", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "truck",   "valorBaseTon": 200 },
+    { "estadoOrigem": "GO", "estadoDestino": "MG", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "bitrem",  "valorBaseTon": 150 },
+    { "estadoOrigem": "GO", "estadoDestino": "MG", "faixaKm": "500-1000",   "tipoCarga": "refrigerada",  "tipoVeiculo": "carreta", "valorBaseTon": 230 },
+    { "estadoOrigem": "MG", "estadoDestino": "GO", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 175 },
+    { "estadoOrigem": "MG", "estadoDestino": "GO", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "truck",   "valorBaseTon": 200 },
+    { "estadoOrigem": "MG", "estadoDestino": "GO", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "bitrem",  "valorBaseTon": 150 },
+
+    { "estadoOrigem": "GO", "estadoDestino": "MS", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 170 },
+    { "estadoOrigem": "GO", "estadoDestino": "MS", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "bitrem",  "valorBaseTon": 145 },
+    { "estadoOrigem": "GO", "estadoDestino": "MS", "faixaKm": "500-1000",   "tipoCarga": "refrigerada",  "tipoVeiculo": "carreta", "valorBaseTon": 225 },
+
+    { "estadoOrigem": "GO", "estadoDestino": "TO", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 170 },
+    { "estadoOrigem": "GO", "estadoDestino": "TO", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "bitrem",  "valorBaseTon": 145 },
+    { "estadoOrigem": "TO", "estadoDestino": "GO", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 170 },
+
+    { "estadoOrigem": "GO", "estadoDestino": "BA", "faixaKm": "1000-2000",  "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 280 },
+    { "estadoOrigem": "GO", "estadoDestino": "BA", "faixaKm": "1000-2000",  "tipoCarga": "seca",         "tipoVeiculo": "bitrem",  "valorBaseTon": 240 },
+    { "estadoOrigem": "GO", "estadoDestino": "BA", "faixaKm": "1000-2000",  "tipoCarga": "refrigerada",  "tipoVeiculo": "carreta", "valorBaseTon": 365 },
+    { "estadoOrigem": "GO", "estadoDestino": "BA", "faixaKm": "1000-2000",  "tipoCarga": "perigosa",     "tipoVeiculo": "carreta", "valorBaseTon": 450 },
+
+    { "estadoOrigem": "GO", "estadoDestino": "RJ", "faixaKm": "1000-2000",  "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 290 },
+    { "estadoOrigem": "GO", "estadoDestino": "RJ", "faixaKm": "1000-2000",  "tipoCarga": "seca",         "tipoVeiculo": "bitrem",  "valorBaseTon": 245 },
+    { "estadoOrigem": "GO", "estadoDestino": "RJ", "faixaKm": "1000-2000",  "tipoCarga": "refrigerada",  "tipoVeiculo": "carreta", "valorBaseTon": 380 },
+
+    { "estadoOrigem": "MG", "estadoDestino": "SP", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 165 },
+    { "estadoOrigem": "MG", "estadoDestino": "SP", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "bitrem",  "valorBaseTon": 140 },
+    { "estadoOrigem": "MG", "estadoDestino": "SP", "faixaKm": "500-1000",   "tipoCarga": "refrigerada",  "tipoVeiculo": "carreta", "valorBaseTon": 215 },
+    { "estadoOrigem": "SP", "estadoDestino": "MG", "faixaKm": "500-1000",   "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 160 },
+
+    { "estadoOrigem": "BA", "estadoDestino": "SP", "faixaKm": "1000-2000",  "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 295 },
+    { "estadoOrigem": "BA", "estadoDestino": "SP", "faixaKm": "1000-2000",  "tipoCarga": "seca",         "tipoVeiculo": "bitrem",  "valorBaseTon": 250 },
+    { "estadoOrigem": "BA", "estadoDestino": "SP", "faixaKm": "2000+",      "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 385 },
+
+    { "estadoOrigem": "MS", "estadoDestino": "SP", "faixaKm": "1000-2000",  "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 275 },
+    { "estadoOrigem": "DF", "estadoDestino": "SP", "faixaKm": "1000-2000",  "tipoCarga": "seca",         "tipoVeiculo": "carreta", "valorBaseTon": 285 }
+  ]
+}

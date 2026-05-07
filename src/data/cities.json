@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "atualizadoEm": "2026-05-01",
+  "cidades": [
+    { "nome": "Rio Verde",            "estado": "GO", "coberta": true,  "temRetorno": true  },
+    { "nome": "Anápolis",             "estado": "GO", "coberta": true,  "temRetorno": true  },
+    { "nome": "Goiânia",              "estado": "GO", "coberta": true,  "temRetorno": true  },
+    { "nome": "Aparecida de Goiânia", "estado": "GO", "coberta": true,  "temRetorno": true  },
+    { "nome": "Catalão",              "estado": "GO", "coberta": true,  "temRetorno": true  },
+    { "nome": "Itumbiara",            "estado": "GO", "coberta": true,  "temRetorno": true  },
+    { "nome": "Cristalina",           "estado": "GO", "coberta": true,  "temRetorno": true  },
+    { "nome": "Jataí",                "estado": "GO", "coberta": true,  "temRetorno": false },
+    { "nome": "Mineiros",             "estado": "GO", "coberta": true,  "temRetorno": false },
+
+    { "nome": "Patos de Minas",       "estado": "MG", "coberta": true,  "temRetorno": true  },
+    { "nome": "Belo Horizonte",       "estado": "MG", "coberta": true,  "temRetorno": true  },
+    { "nome": "Uberlândia",           "estado": "MG", "coberta": true,  "temRetorno": true  },
+    { "nome": "Uberaba",              "estado": "MG", "coberta": true,  "temRetorno": true  },
+    { "nome": "Patrocínio",           "estado": "MG", "coberta": true,  "temRetorno": true  },
+    { "nome": "Araxá",                "estado": "MG", "coberta": true,  "temRetorno": false },
+    { "nome": "Montes Claros",        "estado": "MG", "coberta": false, "temRetorno": false },
+
+    { "nome": "Campo Grande",         "estado": "MS", "coberta": true,  "temRetorno": true  },
+    { "nome": "Três Lagoas",          "estado": "MS", "coberta": true,  "temRetorno": true  },
+    { "nome": "Dourados",             "estado": "MS", "coberta": true,  "temRetorno": false },
+    { "nome": "Corumbá",              "estado": "MS", "coberta": false, "temRetorno": false },
+
+    { "nome": "Salvador",                "estado": "BA", "coberta": true,  "temRetorno": true  },
+    { "nome": "Feira de Santana",        "estado": "BA", "coberta": true,  "temRetorno": true  },
+    { "nome": "Vitória da Conquista",    "estado": "BA", "coberta": true,  "temRetorno": false },
+    { "nome": "Barreiras",               "estado": "BA", "coberta": true,  "temRetorno": false },
+    { "nome": "Luís Eduardo Magalhães",  "estado": "BA", "coberta": true,  "temRetorno": false },
+    { "nome": "Ilhéus",                  "estado": "BA", "coberta": false, "temRetorno": false },
+
+    { "nome": "Palmas",          "estado": "TO", "coberta": true,  "temRetorno": true  },
+    { "nome": "Araguaína",       "estado": "TO", "coberta": true,  "temRetorno": false },
+    { "nome": "Gurupi",          "estado": "TO", "coberta": true,  "temRetorno": false },
+    { "nome": "Porto Nacional",  "estado": "TO", "coberta": false, "temRetorno": false },
+
+    { "nome": "Brasília",   "estado": "DF", "coberta": true, "temRetorno": true },
+    { "nome": "Taguatinga", "estado": "DF", "coberta": true, "temRetorno": true },
+
+    { "nome": "São Paulo",              "estado": "SP", "coberta": true, "temRetorno": true  },
+    { "nome": "Campinas",               "estado": "SP", "coberta": true, "temRetorno": true  },
+    { "nome": "Ribeirão Preto",         "estado": "SP", "coberta": true, "temRetorno": true  },
+    { "nome": "Sorocaba",               "estado": "SP", "coberta": true, "temRetorno": true  },
+    { "nome": "São José do Rio Preto",  "estado": "SP", "coberta": true, "temRetorno": true  },
+    { "nome": "Bauru",                  "estado": "SP", "coberta": true, "temRetorno": false },
+
+    { "nome": "Rio de Janeiro", "estado": "RJ", "coberta": true, "temRetorno": true  },
+    { "nome": "Niterói",        "estado": "RJ", "coberta": true, "temRetorno": true  },
+    { "nome": "Volta Redonda",  "estado": "RJ", "coberta": true, "temRetorno": false }
+  ]
+}
