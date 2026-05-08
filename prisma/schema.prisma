@@ -13,6 +13,7 @@ datasource db {
 model Quotation {
   id              String   @id @default(cuid())
   rawInput        String
+  inputType       String   @default("text")
   extractedData   Json?
   calculatedPrice Float?
   status          String   @default("PENDING")

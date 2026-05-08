@@ -1,6 +1,7 @@
 import type {
   ExtractedQuotationData,
   ExtractTokenUsage,
+  InputType,
   QuotationStatus,
 } from "./types";
 import type { FaixaKm, Tariff } from "./data-loader";
@@ -19,6 +20,7 @@ export interface PriceBreakdownDTO {
 export interface QuotationDTO {
   id: string;
   rawInput: string;
+  inputType: InputType;
   extractedData: ExtractedQuotationData | null;
   calculatedPrice: number | null;
   status: QuotationStatus;
@@ -36,6 +38,10 @@ export interface CreateQuotationSuccess {
     processingTimeMs: number;
   };
   price: PriceBreakdownDTO;
+  transcription?: {
+    text: string;
+    processingTimeMs: number;
+  };
 }
 
 export interface CreateQuotationFailure {
