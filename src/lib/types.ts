@@ -2,6 +2,8 @@ import type { TipoCarga, TipoVeiculo } from "./data-loader";
 
 export type QuotationStatus = "PENDING" | "PROCESSED" | "ERROR";
 
+export type InputType = "text" | "audio";
+
 export type ConfidenceScore = number;
 
 export interface ExtractionConfidence {
@@ -50,6 +52,7 @@ export interface ExtractApiResponse {
 export interface Quotation {
   id: string;
   rawInput: string;
+  inputType: InputType;
   extractedData: ExtractedQuotationData | null;
   calculatedPrice: number | null;
   status: QuotationStatus;

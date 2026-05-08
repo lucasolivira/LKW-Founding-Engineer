@@ -144,6 +144,12 @@ function HistoryItem({
       >
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2">
+            <span
+              title={quotation.inputType === "audio" ? "Entrada por áudio" : "Entrada por texto"}
+              aria-label={quotation.inputType === "audio" ? "áudio" : "texto"}
+            >
+              {quotation.inputType === "audio" ? "🎤" : "📝"}
+            </span>
             <span className="text-xs text-muted-foreground">{dateStr}</span>
             <StatusPill status={quotation.status} />
             {quotation.isPontaDeRota && (
@@ -175,7 +181,9 @@ function ExpandedDetails({ quotation }: { quotation: QuotationDTO }) {
     <div className="space-y-2 border-t bg-muted/30 px-3 py-3 text-xs">
       <div>
         <p className="font-semibold uppercase tracking-wide text-muted-foreground">
-          Mensagem original
+          {quotation.inputType === "audio"
+            ? "Transcrição do áudio"
+            : "Mensagem original"}
         </p>
         <p className="mt-1 whitespace-pre-wrap text-foreground">
           {quotation.rawInput}
